@@ -34,3 +34,5 @@ function randNumCust(minCust, maxCust)  {
   Math.floor(Math.random() * (maxCust - minCust) + minCust
 
 }
+
+randNumCust()
