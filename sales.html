@@ -21,10 +21,16 @@ var capHill = {
   minCust: 20,
   maxCust: 38,
   cookiePerSale: 2.3,
-    }
+  }
 
 var alki = {
   minCust: 23,
   maxCust: 65,
   cookiePerSale: 6.3,
-    }
+  }
+
+//method of the object to generate a random number of customers per hour
+function randNumCust(minCust, maxCust)  {
+  Math.floor(Math.random() * (maxCust - minCust) + minCust
+
+}
